@@ -18,7 +18,7 @@ function comprarPista(qtd){
     }else {
         qtdPista = qtdPista - qtd;
         document.getElementById('qtd-pista').textContent = qtdPista;
-        alert(`Ingresso pista comprado com sucesso!`);
+        alert(`Ingresso comprado com sucesso!`);
     }
 
     
@@ -31,7 +31,7 @@ function comprarSuperior(qtd){
     }else {
         qtdSuperior = qtdSuperior - qtd;
         document.getElementById('qtd-superior').textContent = qtdSuperior;
-        alert(`Ingresso superior comprado com sucesso!`);
+        alert(`Ingresso comprado com sucesso!`);
     }
 
     
@@ -44,7 +44,7 @@ function comprarInferior(qtd){
     }else {
         qtdInferior = qtdInferior - qtd;
         document.getElementById('qtd-inferior').textContent = qtdInferior;
-        alert(`Ingresso superior comprado com sucesso!`);
+        alert(`Ingresso comprado com sucesso!`);
     }
 
     
